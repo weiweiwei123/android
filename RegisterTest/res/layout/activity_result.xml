@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:text="@string/result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" 
+        android:gravity="center_horizontal"/>
+     <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TableRow>
+            <TextView
+        android:id="@+id/resultName"
+        android:text="@string/result_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />     
+            </TableRow>
+            <TableRow>
+            <TextView
+        android:id="@+id/resultPsd"
+        android:text="@string/result_psd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />     
+            </TableRow>
+            <TableRow>
+            <TextView
+        android:id="@+id/resultGender"
+        android:text="@string/result_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />     
+            </TableRow>
+            <TableRow>
+            <TextView
+        android:id="@+id/resultCity"
+        android:text="@string/result_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />     
+            </TableRow>
+            </TableLayout>                  
+</LinearLayout>
